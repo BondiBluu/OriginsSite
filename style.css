@@ -1,0 +1,65 @@
+.origin-header{
+    text-align: center;
+    color: white;
+    font-family: "Charlotte Sans", sans-serif;
+}
+
+body{
+    background-color: black;
+    background-image: url('WestImage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-family: "Charlotte Sans", sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.container{
+    position: relative;
+}
+
+.side-panel {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    transition: left 0.3s;
+}
+
+.open-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.close-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.link-button{
+    font-family: charlotte sans, sans-serif;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.link-button:hover{
+    background-color: #555;
+}
+
