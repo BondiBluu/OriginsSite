@@ -73,12 +73,10 @@ h1{
     background-color: #333;
     color: white;
     border: none;
-    padding: 25px;
+    padding: 20px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
-    margin-left: 25%;
-    margin-top: 100px;
     transition: background-color 0.5s, color 0.5s;
 }
 
@@ -90,8 +88,28 @@ h1{
 .home-page-links{
     background-color: #33333300;
     color: white;
+    font-size: 17px;
+    font-weight: bold;
     border: none;
     font-family: charlotte sans, sans-serif;
+    transition: color 0.7s;
+}
+
+.home-page-links:hover{
+    color: rgb(59, 59, 59);
+}
+
+.button-container{
+    text-align: center;
+}
+
+.button-container .home-page-button{
+    display: inline-block;
+    margin: 50px;
+}
+
+.home-page-container{
+    
 }
 
 .slide-down{
